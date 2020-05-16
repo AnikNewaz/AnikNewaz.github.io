@@ -959,12 +959,6 @@ section {
 # New Style Custom
 --------------------------------------------------------------*/
 
-.container, .container-fluid {
-    position: relative;
-    word-wrap: break-word;
-    text-align-last: end;
-}
-
 @media (min-width: 768px)
 .container {
     max-width: 720px;
@@ -975,6 +969,8 @@ section {
     width: 100%;
     padding-right: 15px;
     padding-left: 15px;
+    margin-right: 15px;
+    margin-top: auto;
     margin-left: auto;
 }
 
